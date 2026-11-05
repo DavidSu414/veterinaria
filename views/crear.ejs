@@ -1,0 +1,16 @@
+<%- include("template/cabecera.ejs",{tituloWeb:'Crear nueva mascota'}) %>
+
+    <div class="container">
+        <h1>Crear</h1>
+        <form action="/mascotas" method="POST">
+            <input type="text" class="form-control mb-2" name="nombre" placeholder="Agregar nombre">
+            <input type="text" class="form-control mb-2" name="descripcion" placeholder="Agregar descripción">
+            <button class="btn btn-success btn-block" type="submit">Agregar</button>
+        </form>
+        </form>
+
+    </div>
+
+
+
+<%- include("template/footer.ejs") %>
